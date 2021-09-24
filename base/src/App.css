@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 120vh;
+
+    background-color: rgb(34, 31, 31);
+
+    padding: 100px;
+}
+
+.App__input{
+    all: unset;
+    box-sizing: border-box;
+
+    width: 50%;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(34, 31, 31);
+
+    background-color: white;
+
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.App__title{
+    color: white;
+    border-bottom: 2px solid white;
+
+    margin-bottom: 50px;
+}
+
+.paises{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pais__nome{
+    font-size: medium;
+    color: white;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pais__img{
+    width: 150px;
+    height: 100px;
+}
+
+.display--none{display: none;}
